@@ -1,0 +1,21 @@
+import { Request, Response, NextFunction } from 'express';
+export declare const getTellerActivities: (req: Request, res: Response, next: NextFunction) => Promise<void>;
+export declare const getBranches: (_req: Request, res: Response, next: NextFunction) => Promise<void>;
+export declare const getBranchInfo: (req: Request, res: Response, next: NextFunction) => Promise<void>;
+export declare const createOffice: (req: Request, res: Response, next: NextFunction) => Promise<void>;
+export declare const getOffices: (req: Request, res: Response, next: NextFunction) => Promise<void>;
+export declare const updateOfficeStatus: (req: Request, res: Response, next: NextFunction) => Promise<void>;
+export declare const updateOffice: (req: Request, res: Response, next: NextFunction) => Promise<void>;
+export declare const updateOfficeServices: (req: Request, res: Response, next: NextFunction) => Promise<void>;
+export declare const deleteOffice: (req: Request, res: Response, next: NextFunction) => Promise<void>;
+export declare const createTicket: (req: Request, res: Response, next: NextFunction) => Promise<void>;
+export declare const getTickets: (req: Request, res: Response, next: NextFunction) => Promise<void>;
+export declare const getWaitingTickets: (req: Request, res: Response, next: NextFunction) => Promise<void>;
+export declare const getSkippedTickets: (req: Request, res: Response, next: NextFunction) => Promise<void>;
+export declare const callTicket: (req: Request, res: Response, next: NextFunction) => Promise<Response<any, Record<string, any>> | undefined>;
+export declare const startService: (req: Request, res: Response, next: NextFunction) => Promise<void>;
+export declare const completeService: (req: Request, res: Response, next: NextFunction) => Promise<Response<any, Record<string, any>> | undefined>;
+export declare const skipTicket: (req: Request, res: Response, next: NextFunction) => Promise<void>;
+export declare const recallTicket: (req: Request, res: Response, next: NextFunction) => Promise<void>;
+export declare const cancelTicket: (req: Request, res: Response, next: NextFunction) => Promise<Response<any, Record<string, any>> | undefined>;
+//# sourceMappingURL=ticketController.d.ts.map

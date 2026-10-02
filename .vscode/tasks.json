@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"command": "npm run dev",
+			"isBackground": true,
+			"label": "Start Frontend (Vite)",
+			"problemMatcher": [],
+			"type": "shell"
+		}
+	]
+}

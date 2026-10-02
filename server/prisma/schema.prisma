@@ -1,0 +1,187 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model SelfService {
+  id           Int      @id @default(autoincrement())
+  serviceId    String   @unique @map("service_id")
+  title        String
+  description  String
+  tag          String
+  enabled      Boolean  @default(true)
+  displayOrder Int      @default(0) @map("display_order")
+  createdAt    DateTime @default(now()) @map("created_at")
+  updatedAt    DateTime @updatedAt @map("updated_at")
+
+  @@map("self_services")
+}
+
+model AssistedService {
+  id           Int      @id @default(autoincrement())
+  serviceId    String   @unique @map("service_id")
+  title        String
+  description  String
+  tag          String
+  enabled      Boolean  @default(true)
+  displayOrder Int      @default(0) @map("display_order")
+  createdAt    DateTime @default(now()) @map("created_at")
+  updatedAt    DateTime @updatedAt @map("updated_at")
+
+  @@map("assisted_services")
+}
+
+model AuditLog {
+  id         Int      @id @default(autoincrement())
+  timestamp  DateTime @default(now())
+  level      String   @default("info")
+  category   String   @default("system")
+  userId     String?  @map("user_id")
+  userName   String?  @map("user_name")
+  action     String
+  details    String   @default("")
+  ipAddress  String?  @map("ip_address")
+  userAgent  String?  @map("user_agent")
+  status     String   @default("success")
+  metadata   Json?
+
+  @@map("audit_logs")
+}
+
+model TrafficEntry {
+  id           Int      @id @default(autoincrement())
+  timestamp    DateTime @default(now())
+  method       String   @default("GET")
+  endpoint     String
+  statusCode   Int      @default(200) @map("status_code")
+  responseTime Int      @default(0) @map("response_time")
+  ipAddress    String?  @map("ip_address")
+  userAgent    String?  @map("user_agent")
+  userId       String?  @map("user_id")
+  requestSize  Int?     @map("request_size")
+  responseSize Int?     @map("response_size")
+  errorMessage String?  @map("error_message")
+
+  @@map("traffic_entries")
+}
+
+model ServiceActivityLog {
+  id           Int      @id @default(autoincrement())
+  serviceId    String   @map("service_id")
+  serviceName  String   @map("service_name")
+  timestamp    DateTime @default(now())
+  action       String
+  status       String   @default("success")
+  duration     Int      @default(0)
+  errorMessage String?  @map("error_message")
+  userId       String?  @map("user_id")
+  metadata     Json?
+
+  @@map("service_activity_logs")
+}
+
+model Ad {
+  id           Int      @id @default(autoincrement())
+  title        String   @db.Text
+  url          String   @db.Text
+  type         String   @default("image") @db.Text
+  active       Boolean  @default(true)
+  display_type AdStatus
+  created_at   DateTime @default(now()) @db.Timestamp(6)
+}
+
+model Ticket {
+  id               Int          @unique @default(autoincrement())
+  ticketId         String       @id @default(uuid())
+  queueNumber      Int
+  serviceId        String
+  serviceName      String
+  amount           Decimal?     @db.Decimal(10, 2)
+  customerName     String
+  accountNumber    String
+  transactionId    String
+  assignedOfficeId String?
+  calledAt         DateTime     @default(now())
+  servedAt         String?
+  completedAt      String?
+  timestamp        DateTime     @default(now())
+  status           TicketStatus
+  branch_id        String       @default("MAIN")
+  isPostedToCore   Boolean      @default(false)
+
+  @@map("Ticket")
+}
+
+enum TicketStatus {
+  PENDING
+  SERVING
+  COMPLETED
+  CALLING
+  SKIPPED
+  CANCELLED
+}
+
+enum AdStatus {
+  LANDSCAPE
+  PORTRAIT
+}
+
+model Office {
+  id         Int          @id @default(autoincrement())
+  name       String
+  deskNumber String
+  office     String
+  status     OfficeStatus @default(AVAILABLE)
+  branch_id  String
+  services   Json
+  occupiedBy String?
+  createdAt  DateTime     @default(now())
+
+  @@map("Office")
+}
+
+enum OfficeStatus {
+  AVAILABLE
+  SERVING
+  OFFLINE
+  BUSY
+}
+
+model SystemConfig {
+  id                          Int      @id @default(autoincrement())
+  maintenanceMode             Boolean  @default(false) @map("maintenance_mode")
+  sessionTimeout              Int      @default(300) @map("session_timeout")
+  serviceSelectionTimeout     Int      @default(300) @map("service_selection_timeout")
+  transactionCompleteTimeout  Int      @default(7) @map("transaction_complete_timeout")
+  adminSessionTimeout         Int      @default(15) @map("admin_session_timeout")
+  enableBiometricCache        Boolean  @default(true) @map("enable_biometric_cache")
+  enableDetailedLogging       Boolean  @default(true) @map("enable_detailed_logging")
+  enableRateLimiting          Boolean  @default(true) @map("enable_rate_limiting")
+  rateLimitRequestsPerMinute  Int      @default(60) @map("rate_limit_requests_per_minute")
+  enableAuditLogging          Boolean  @default(true) @map("enable_audit_logging")
+  enableTransactionNotifications Boolean @default(true) @map("enable_transaction_notifications")
+  adsEnabled                  Boolean  @default(true) @map("ads_enabled")
+  landscapeAdsEnabled         Boolean  @default(true) @map("landscape_ads_enabled")
+  portraitAdsEnabled          Boolean  @default(true) @map("portrait_ads_enabled")
+  updatedAt                   DateTime @updatedAt @map("updated_at")
+
+  @@map("system_config")
+}
+
+model DeviceBranch {
+  id         Int      @id @default(autoincrement())
+  ipAddress  String   @unique @map("ip_address")
+  branchId   String   @map("branch_id")
+  branchName String   @map("branch_name")
+  createdAt  DateTime @default(now()) @map("created_at")
+  updatedAt  DateTime @updatedAt @map("updated_at")
+
+  @@map("device_branch")
+}
+

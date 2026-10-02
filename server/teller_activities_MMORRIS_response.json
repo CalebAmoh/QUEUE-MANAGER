@@ -1,0 +1,31 @@
+{
+  "data": [
+    {
+      "FORM_CODE": "CADD",
+      "LABEL": "CASH DEPOSIT"
+    },
+    {
+      "FORM_CODE": "CAWW",
+      "LABEL": "CASH WITHDRAWAL"
+    },
+    {
+      "FORM_CODE": "CCQ",
+      "LABEL": "COUNTER CHEQUE WITHDRAWAL"
+    },
+    {
+      "FORM_CODE": "CHW",
+      "LABEL": "CHEQUE WITHDRAWAL"
+    },
+    {
+      "FORM_CODE": "TTRC",
+      "LABEL": "Same Day Reversal"
+    }
+  ],
+  "success": true,
+  "message": "Success",
+  "responseCode": 200,
+  "contentType": "application/json",
+  "protocolType": "rest",
+  "apiName": "TELLER ACTIVITY",
+  "error": null
+}

@@ -1,0 +1,3115 @@
+{
+  "customerTypeList": [
+    {
+      "actualCode": "C",
+      "subCode": null,
+      "description": "CORPORATE"
+    },
+    {
+      "actualCode": "I",
+      "subCode": null,
+      "description": "PERSONAL"
+    }
+  ],
+  "customerCategoryList": [
+    {
+      "actualCode": "MI",
+      "subCode": "I",
+      "description": "MINOR"
+    },
+    {
+      "actualCode": "ID",
+      "subCode": "I",
+      "description": "INDIVIDUALS"
+    },
+    {
+      "actualCode": "JT",
+      "subCode": "I",
+      "description": "JOINT"
+    },
+    {
+      "actualCode": "DT",
+      "subCode": "I",
+      "description": "DIRECTOR"
+    },
+    {
+      "actualCode": "DR",
+      "subCode": "I",
+      "description": "DIRECTOR RELATED"
+    },
+    {
+      "actualCode": "SH",
+      "subCode": "I",
+      "description": "SHAREHOLDER"
+    },
+    {
+      "actualCode": "SR",
+      "subCode": "I",
+      "description": "STAFF RELATED"
+    },
+    {
+      "actualCode": "AR",
+      "subCode": "I",
+      "description": "SHAREHOLDER RELATED"
+    },
+    {
+      "actualCode": "TR",
+      "subCode": "I",
+      "description": "TRUST"
+    },
+    {
+      "actualCode": "LC",
+      "subCode": "C",
+      "description": "LOCAL COUNCIL"
+    },
+    {
+      "actualCode": "PR",
+      "subCode": "C",
+      "description": "PARASTATAL"
+    },
+    {
+      "actualCode": "PS",
+      "subCode": "C",
+      "description": "PRIVATE ENT."
+    },
+    {
+      "actualCode": "GD",
+      "subCode": "C",
+      "description": "GOVERNMENT DEPT"
+    },
+    {
+      "actualCode": "GA",
+      "subCode": "C",
+      "description": "GOVERNMENT AGENCIES"
+    },
+    {
+      "actualCode": "PU",
+      "subCode": "C",
+      "description": "PUBLIC ENT."
+    }
+  ],
+  "mandateList": [
+    {
+      "actualCode": "002",
+      "subCode": null,
+      "description": "ANY TWO TO SIGN"
+    },
+    {
+      "actualCode": "003",
+      "subCode": null,
+      "description": "ALL THREE TO SIGN"
+    },
+    {
+      "actualCode": "004",
+      "subCode": null,
+      "description": "EITHER TO SIGN"
+    },
+    {
+      "actualCode": "005",
+      "subCode": null,
+      "description": "BOTH TO SIGN"
+    },
+    {
+      "actualCode": "006",
+      "subCode": null,
+      "description": "1A"
+    },
+    {
+      "actualCode": "007",
+      "subCode": null,
+      "description": "1B"
+    },
+    {
+      "actualCode": "008",
+      "subCode": null,
+      "description": "1C"
+    },
+    {
+      "actualCode": "009",
+      "subCode": null,
+      "description": "1D"
+    },
+    {
+      "actualCode": "010",
+      "subCode": null,
+      "description": "1A AND 1B"
+    },
+    {
+      "actualCode": "011",
+      "subCode": null,
+      "description": "2A AND 2B"
+    },
+    {
+      "actualCode": "012",
+      "subCode": null,
+      "description": "1A OR 2B"
+    },
+    {
+      "actualCode": "013",
+      "subCode": null,
+      "description": "2A"
+    },
+    {
+      "actualCode": "014",
+      "subCode": null,
+      "description": "3A"
+    },
+    {
+      "actualCode": "015",
+      "subCode": null,
+      "description": "4A"
+    },
+    {
+      "actualCode": "016",
+      "subCode": null,
+      "description": "1A OR 1B"
+    },
+    {
+      "actualCode": "017",
+      "subCode": null,
+      "description": "2A OR 2B"
+    },
+    {
+      "actualCode": "018",
+      "subCode": null,
+      "description": "1A OR 1B OR 1C"
+    },
+    {
+      "actualCode": "019",
+      "subCode": null,
+      "description": "1A OR 1B OR 1C OR 1D"
+    },
+    {
+      "actualCode": "020",
+      "subCode": null,
+      "description": "2A AND 1B"
+    },
+    {
+      "actualCode": "021",
+      "subCode": null,
+      "description": "1A AND 1B AND 1C"
+    },
+    {
+      "actualCode": "022",
+      "subCode": null,
+      "description": "1A AND 1B AND 1C and 1D"
+    },
+    {
+      "actualCode": "023",
+      "subCode": null,
+      "description": "2A OR 1A AND 1B"
+    },
+    {
+      "actualCode": "024",
+      "subCode": null,
+      "description": "1A OR 1B AND 1C "
+    },
+    {
+      "actualCode": "025",
+      "subCode": null,
+      "description": "3A OR 3B"
+    },
+    {
+      "actualCode": "026",
+      "subCode": null,
+      "description": "1A AND 2B"
+    },
+    {
+      "actualCode": "104",
+      "subCode": null,
+      "description": "ONE `A` AND ONE `B` TO SIGN"
+    },
+    {
+      "actualCode": "105",
+      "subCode": null,
+      "description": "TWO `B` TO SIGN"
+    },
+    {
+      "actualCode": "106",
+      "subCode": null,
+      "description": "ONE `A` AND TWO `B` TO SIGN"
+    },
+    {
+      "actualCode": "107",
+      "subCode": null,
+      "description": "`A` AND ANY TWO"
+    },
+    {
+      "actualCode": "999",
+      "subCode": null,
+      "description": "OTHERS SPECIFY"
+    },
+    {
+      "actualCode": "001",
+      "subCode": null,
+      "description": "SOLE SIGNATORY"
+    },
+    {
+      "actualCode": "028",
+      "subCode": null,
+      "description": "1A OR 1A AND 1B"
+    },
+    {
+      "actualCode": "108",
+      "subCode": null,
+      "description": "1A AND 1B OR 1A AND 1C"
+    },
+    {
+      "actualCode": "109",
+      "subCode": null,
+      "description": "1A AND 1B AND 1C"
+    },
+    {
+      "actualCode": "110",
+      "subCode": null,
+      "description": "1A OR 1A AND 1C"
+    },
+    {
+      "actualCode": "111",
+      "subCode": null,
+      "description": "1A OR 1A AND 1D"
+    },
+    {
+      "actualCode": "112",
+      "subCode": null,
+      "description": "1A OR 1A AND 1B OR 1A AND 1C"
+    }
+  ],
+  "titleList": [
+    {
+      "actualCode": "001",
+      "subCode": null,
+      "description": "MR"
+    },
+    {
+      "actualCode": "002",
+      "subCode": null,
+      "description": "MRS"
+    },
+    {
+      "actualCode": "003",
+      "subCode": null,
+      "description": "DR"
+    },
+    {
+      "actualCode": "004",
+      "subCode": null,
+      "description": "PROF"
+    },
+    {
+      "actualCode": "015",
+      "subCode": null,
+      "description": "PASTOR"
+    },
+    {
+      "actualCode": "006",
+      "subCode": null,
+      "description": "MADAM"
+    },
+    {
+      "actualCode": "005",
+      "subCode": null,
+      "description": "REVD."
+    },
+    {
+      "actualCode": "010",
+      "subCode": null,
+      "description": "ALHAJI"
+    },
+    {
+      "actualCode": "011",
+      "subCode": null,
+      "description": "EVANGELIST"
+    },
+    {
+      "actualCode": "013",
+      "subCode": null,
+      "description": "HON."
+    },
+    {
+      "actualCode": "014",
+      "subCode": null,
+      "description": "H.E."
+    },
+    {
+      "actualCode": "016",
+      "subCode": null,
+      "description": "BISHOP"
+    },
+    {
+      "actualCode": "018",
+      "subCode": null,
+      "description": "MASTER"
+    },
+    {
+      "actualCode": "026",
+      "subCode": null,
+      "description": "ENG"
+    },
+    {
+      "actualCode": "019",
+      "subCode": null,
+      "description": "MESSR"
+    },
+    {
+      "actualCode": "021",
+      "subCode": null,
+      "description": "CHIEF"
+    },
+    {
+      "actualCode": "007",
+      "subCode": null,
+      "description": "MISS"
+    },
+    {
+      "actualCode": "008",
+      "subCode": null,
+      "description": "CHIEF JUSTICE"
+    },
+    {
+      "actualCode": "000",
+      "subCode": null,
+      "description": "N/A"
+    },
+    {
+      "actualCode": "023",
+      "subCode": null,
+      "description": "HAJIA"
+    },
+    {
+      "actualCode": "024",
+      "subCode": null,
+      "description": "SIR"
+    }
+  ],
+  "genderList": [
+    {
+      "actualCode": "M",
+      "subCode": null,
+      "description": "Male"
+    },
+    {
+      "actualCode": "F",
+      "subCode": null,
+      "description": "Female"
+    }
+  ],
+  "nationalityList": [
+    {
+      "actualCode": "AND",
+      "subCode": null,
+      "description": "ANDORRAN"
+    },
+    {
+      "actualCode": "ARE",
+      "subCode": null,
+      "description": "EMIRATI"
+    },
+    {
+      "actualCode": "AFG",
+      "subCode": null,
+      "description": "AFGHAN"
+    },
+    {
+      "actualCode": "ATG",
+      "subCode": null,
+      "description": "ANTIGUAN, BARBUDAN"
+    },
+    {
+      "actualCode": "AIA",
+      "subCode": null,
+      "description": "ANGUILLIAN"
+    },
+    {
+      "actualCode": "ALB",
+      "subCode": null,
+      "description": "ALBANIAN"
+    },
+    {
+      "actualCode": "ARM",
+      "subCode": null,
+      "description": "ARMENIAN"
+    },
+    {
+      "actualCode": "AGO",
+      "subCode": null,
+      "description": "ANGOLAN"
+    },
+    {
+      "actualCode": "ATA",
+      "subCode": null,
+      "description": "ANTARCTICA"
+    },
+    {
+      "actualCode": "ARG",
+      "subCode": null,
+      "description": "ARGENTINEAN"
+    },
+    {
+      "actualCode": "ASM",
+      "subCode": null,
+      "description": "AMERICAN SAMOAN"
+    },
+    {
+      "actualCode": "AUT",
+      "subCode": null,
+      "description": "AUSTRIAN"
+    },
+    {
+      "actualCode": "AUS",
+      "subCode": null,
+      "description": "AUSTRALIAN"
+    },
+    {
+      "actualCode": "ABW",
+      "subCode": null,
+      "description": "ARUBAN"
+    },
+    {
+      "actualCode": "ALA",
+      "subCode": null,
+      "description": "SWEDISH"
+    },
+    {
+      "actualCode": "AZE",
+      "subCode": null,
+      "description": "AZERBAIJANI"
+    },
+    {
+      "actualCode": "BIH",
+      "subCode": null,
+      "description": "BOSNIAN, HERZEGOVINIAN"
+    },
+    {
+      "actualCode": "BRB",
+      "subCode": null,
+      "description": "BARBADIAN"
+    },
+    {
+      "actualCode": "BGD",
+      "subCode": null,
+      "description": "BANGLADESHI"
+    },
+    {
+      "actualCode": "BEL",
+      "subCode": null,
+      "description": "BELGIAN"
+    },
+    {
+      "actualCode": "BFA",
+      "subCode": null,
+      "description": "BURKINABE"
+    },
+    {
+      "actualCode": "BGR",
+      "subCode": null,
+      "description": "BULGARIAN"
+    },
+    {
+      "actualCode": "BHR",
+      "subCode": null,
+      "description": "BAHRAINI"
+    },
+    {
+      "actualCode": "BDI",
+      "subCode": null,
+      "description": "BURUNDIAN"
+    },
+    {
+      "actualCode": "BEN",
+      "subCode": null,
+      "description": "BENINESE"
+    },
+    {
+      "actualCode": "BLM",
+      "subCode": null,
+      "description": "SAINT BARTHÃ©LEMY ISLANDER"
+    },
+    {
+      "actualCode": "BMU",
+      "subCode": null,
+      "description": "BERMUDIAN"
+    },
+    {
+      "actualCode": "BRN",
+      "subCode": null,
+      "description": "BRUNEIAN"
+    },
+    {
+      "actualCode": "BOL",
+      "subCode": null,
+      "description": "BOLIVIAN"
+    },
+    {
+      "actualCode": "BES",
+      "subCode": null,
+      "description": "DUTCH"
+    },
+    {
+      "actualCode": "BRA",
+      "subCode": null,
+      "description": "BRAZILIAN"
+    },
+    {
+      "actualCode": "BHS",
+      "subCode": null,
+      "description": "BAHAMIAN"
+    },
+    {
+      "actualCode": "BTN",
+      "subCode": null,
+      "description": "BHUTANESE"
+    },
+    {
+      "actualCode": "BVT",
+      "subCode": null,
+      "description": "BOUVET ISLAND"
+    },
+    {
+      "actualCode": "BWA",
+      "subCode": null,
+      "description": "MOTSWANA"
+    },
+    {
+      "actualCode": "BLR",
+      "subCode": null,
+      "description": "BELARUSIAN"
+    },
+    {
+      "actualCode": "BLZ",
+      "subCode": null,
+      "description": "BELIZEAN"
+    },
+    {
+      "actualCode": "CAN",
+      "subCode": null,
+      "description": "CANADIAN"
+    },
+    {
+      "actualCode": "CCK",
+      "subCode": null,
+      "description": "COCOS ISLANDER"
+    },
+    {
+      "actualCode": "COD",
+      "subCode": null,
+      "description": "CONGOLESE"
+    },
+    {
+      "actualCode": "CAF",
+      "subCode": null,
+      "description": "CENTRAL AFRICAN"
+    },
+    {
+      "actualCode": "COG",
+      "subCode": null,
+      "description": "CONGOLESE"
+    },
+    {
+      "actualCode": "CHE",
+      "subCode": null,
+      "description": "SWISS"
+    },
+    {
+      "actualCode": "CIV",
+      "subCode": null,
+      "description": "IVORIAN"
+    },
+    {
+      "actualCode": "COK",
+      "subCode": null,
+      "description": "COOK ISLANDER"
+    },
+    {
+      "actualCode": "CHL",
+      "subCode": null,
+      "description": "CHILEAN"
+    },
+    {
+      "actualCode": "CMR",
+      "subCode": null,
+      "description": "CAMEROONIAN"
+    },
+    {
+      "actualCode": "CHN",
+      "subCode": null,
+      "description": "CHINESE"
+    },
+    {
+      "actualCode": "COL",
+      "subCode": null,
+      "description": "COLOMBIAN"
+    },
+    {
+      "actualCode": "CRI",
+      "subCode": null,
+      "description": "COSTA RICAN"
+    },
+    {
+      "actualCode": "SCG",
+      "subCode": null,
+      "description": "MONTENEGRINS, SERBS"
+    },
+    {
+      "actualCode": "CTE",
+      "subCode": null,
+      "description": "CANTON AND ENDERBURY ISLANDS"
+    },
+    {
+      "actualCode": "CUB",
+      "subCode": null,
+      "description": "CUBAN"
+    },
+    {
+      "actualCode": "CPV",
+      "subCode": null,
+      "description": "CAPE VERDIAN"
+    },
+    {
+      "actualCode": "CXR",
+      "subCode": null,
+      "description": "CHRISTMAS ISLAND"
+    },
+    {
+      "actualCode": "CYP",
+      "subCode": null,
+      "description": "CYPRIOT"
+    },
+    {
+      "actualCode": "CZE",
+      "subCode": null,
+      "description": "CZECH"
+    },
+    {
+      "actualCode": "DEU",
+      "subCode": null,
+      "description": "GERMAN"
+    },
+    {
+      "actualCode": "DJI",
+      "subCode": null,
+      "description": "DJIBOUTI"
+    },
+    {
+      "actualCode": "DNK",
+      "subCode": null,
+      "description": "DANISH"
+    },
+    {
+      "actualCode": "DMA",
+      "subCode": null,
+      "description": "DOMINICAN"
+    },
+    {
+      "actualCode": "DOM",
+      "subCode": null,
+      "description": "DOMINICAN"
+    },
+    {
+      "actualCode": "DZA",
+      "subCode": null,
+      "description": "ALGERIAN"
+    },
+    {
+      "actualCode": "ECU",
+      "subCode": null,
+      "description": "ECUADOREAN"
+    },
+    {
+      "actualCode": "EST",
+      "subCode": null,
+      "description": "ESTONIAN"
+    },
+    {
+      "actualCode": "EGY",
+      "subCode": null,
+      "description": "EGYPTIAN"
+    },
+    {
+      "actualCode": "ESH",
+      "subCode": null,
+      "description": "SAHRAWI"
+    },
+    {
+      "actualCode": "ERI",
+      "subCode": null,
+      "description": "ERITREAN"
+    },
+    {
+      "actualCode": "ESP",
+      "subCode": null,
+      "description": "SPANISH"
+    },
+    {
+      "actualCode": "ETH",
+      "subCode": null,
+      "description": "ETHIOPIAN"
+    },
+    {
+      "actualCode": "FIN",
+      "subCode": null,
+      "description": "FINNISH"
+    },
+    {
+      "actualCode": "FJI",
+      "subCode": null,
+      "description": "FIJIAN"
+    },
+    {
+      "actualCode": "FLK",
+      "subCode": null,
+      "description": "FALKLAND ISLANDER"
+    },
+    {
+      "actualCode": "FSM",
+      "subCode": null,
+      "description": "MICRONESIAN"
+    },
+    {
+      "actualCode": "FRO",
+      "subCode": null,
+      "description": "FAROESE"
+    },
+    {
+      "actualCode": "ATF",
+      "subCode": null,
+      "description": "FRENCH SOUTHERN AND ANTARCTIC TERRITORIES"
+    },
+    {
+      "actualCode": "FRA",
+      "subCode": null,
+      "description": "FRENCH"
+    },
+    {
+      "actualCode": "FXX",
+      "subCode": null,
+      "description": "METROPOLITAN FRANCE"
+    },
+    {
+      "actualCode": "GAB",
+      "subCode": null,
+      "description": "GABONESE"
+    },
+    {
+      "actualCode": "GBR",
+      "subCode": null,
+      "description": "BRITISH"
+    },
+    {
+      "actualCode": "GRD",
+      "subCode": null,
+      "description": "GRENADIAN"
+    },
+    {
+      "actualCode": "GEO",
+      "subCode": null,
+      "description": "GEORGIAN"
+    },
+    {
+      "actualCode": "GUF",
+      "subCode": null,
+      "description": "FRENCH GUIANA"
+    },
+    {
+      "actualCode": "GGY",
+      "subCode": null,
+      "description": "CHANNEL ISLANDER"
+    },
+    {
+      "actualCode": "GHA",
+      "subCode": null,
+      "description": "GHANAIAN"
+    },
+    {
+      "actualCode": "GIB",
+      "subCode": null,
+      "description": "GIBRALTAR"
+    },
+    {
+      "actualCode": "GRL",
+      "subCode": null,
+      "description": "GREENLANDIC"
+    },
+    {
+      "actualCode": "GMB",
+      "subCode": null,
+      "description": "GAMBIAN"
+    },
+    {
+      "actualCode": "GIN",
+      "subCode": null,
+      "description": "GUINEAN"
+    },
+    {
+      "actualCode": "GLP",
+      "subCode": null,
+      "description": "GUADELOUPIAN"
+    },
+    {
+      "actualCode": "GNQ",
+      "subCode": null,
+      "description": "EQUATORIAL GUINEAN"
+    },
+    {
+      "actualCode": "GRC",
+      "subCode": null,
+      "description": "GREEK"
+    },
+    {
+      "actualCode": "SGS",
+      "subCode": null,
+      "description": "SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDER"
+    },
+    {
+      "actualCode": "GTM",
+      "subCode": null,
+      "description": "GUATEMALAN"
+    },
+    {
+      "actualCode": "GUM",
+      "subCode": null,
+      "description": "GUAMANIAN"
+    },
+    {
+      "actualCode": "GNB",
+      "subCode": null,
+      "description": "GUINEA-BISSAUAN"
+    },
+    {
+      "actualCode": "GUY",
+      "subCode": null,
+      "description": "GUYANESE"
+    },
+    {
+      "actualCode": "HKG",
+      "subCode": null,
+      "description": "CHINESE"
+    },
+    {
+      "actualCode": "HMD",
+      "subCode": null,
+      "description": "HEARD AND MCDONALD ISLANDER"
+    },
+    {
+      "actualCode": "HND",
+      "subCode": null,
+      "description": "HONDURAN"
+    },
+    {
+      "actualCode": "HRV",
+      "subCode": null,
+      "description": "CROATIAN"
+    },
+    {
+      "actualCode": "HTI",
+      "subCode": null,
+      "description": "HAITIAN"
+    },
+    {
+      "actualCode": "HUN",
+      "subCode": null,
+      "description": "HUNGARIAN"
+    },
+    {
+      "actualCode": "IDN",
+      "subCode": null,
+      "description": "INDONESIAN"
+    },
+    {
+      "actualCode": "IRL",
+      "subCode": null,
+      "description": "IRISH"
+    },
+    {
+      "actualCode": "ISR",
+      "subCode": null,
+      "description": "ISRAELI"
+    },
+    {
+      "actualCode": "IMN",
+      "subCode": null,
+      "description": "MANX"
+    },
+    {
+      "actualCode": "IND",
+      "subCode": null,
+      "description": "INDIAN"
+    },
+    {
+      "actualCode": "IOT",
+      "subCode": null,
+      "description": "INDIAN"
+    },
+    {
+      "actualCode": "IRQ",
+      "subCode": null,
+      "description": "IRAQI"
+    },
+    {
+      "actualCode": "IRN",
+      "subCode": null,
+      "description": "IRANIAN"
+    },
+    {
+      "actualCode": "ISL",
+      "subCode": null,
+      "description": "ICELANDER"
+    },
+    {
+      "actualCode": "ITA",
+      "subCode": null,
+      "description": "ITALIAN"
+    },
+    {
+      "actualCode": "JEY",
+      "subCode": null,
+      "description": "CHANNEL ISLANDER"
+    },
+    {
+      "actualCode": "JAM",
+      "subCode": null,
+      "description": "JAMAICAN"
+    },
+    {
+      "actualCode": "JOR",
+      "subCode": null,
+      "description": "JORDANIAN"
+    },
+    {
+      "actualCode": "JPN",
+      "subCode": null,
+      "description": "JAPANESE"
+    },
+    {
+      "actualCode": "JTN",
+      "subCode": null,
+      "description": "JOHNSTON ISLAND"
+    },
+    {
+      "actualCode": "KEN",
+      "subCode": null,
+      "description": "KENYAN"
+    },
+    {
+      "actualCode": "KGZ",
+      "subCode": null,
+      "description": "KIRGHIZ"
+    },
+    {
+      "actualCode": "KHM",
+      "subCode": null,
+      "description": "CAMBODIAN"
+    },
+    {
+      "actualCode": "KIR",
+      "subCode": null,
+      "description": "I-KIRIBATI"
+    },
+    {
+      "actualCode": "COM",
+      "subCode": null,
+      "description": "COMORAN"
+    },
+    {
+      "actualCode": "KNA",
+      "subCode": null,
+      "description": "KITTIAN AND NEVISIAN"
+    },
+    {
+      "actualCode": "PRK",
+      "subCode": null,
+      "description": "NORTH KOREAN"
+    },
+    {
+      "actualCode": "KOR",
+      "subCode": null,
+      "description": "SOUTH KOREAN"
+    },
+    {
+      "actualCode": "KWT",
+      "subCode": null,
+      "description": "KUWAITI"
+    },
+    {
+      "actualCode": "CYM",
+      "subCode": null,
+      "description": "CAYMANIAN"
+    },
+    {
+      "actualCode": "KAZ",
+      "subCode": null,
+      "description": "KAZAKHSTANI"
+    },
+    {
+      "actualCode": "LAO",
+      "subCode": null,
+      "description": "LAOTIAN"
+    },
+    {
+      "actualCode": "LBN",
+      "subCode": null,
+      "description": "LEBANESE"
+    },
+    {
+      "actualCode": "LCA",
+      "subCode": null,
+      "description": "SAINT LUCIAN"
+    },
+    {
+      "actualCode": "LIE",
+      "subCode": null,
+      "description": "LIECHTENSTEINER"
+    },
+    {
+      "actualCode": "LKA",
+      "subCode": null,
+      "description": "SRI LANKAN"
+    },
+    {
+      "actualCode": "LBR",
+      "subCode": null,
+      "description": "LIBERIAN"
+    },
+    {
+      "actualCode": "LSO",
+      "subCode": null,
+      "description": "MOSOTHO"
+    },
+    {
+      "actualCode": "LTU",
+      "subCode": null,
+      "description": "LITHUANIAN"
+    },
+    {
+      "actualCode": "LUX",
+      "subCode": null,
+      "description": "LUXEMBOURGER"
+    },
+    {
+      "actualCode": "LVA",
+      "subCode": null,
+      "description": "LATVIAN"
+    },
+    {
+      "actualCode": "LBY",
+      "subCode": null,
+      "description": "LIBYAN"
+    },
+    {
+      "actualCode": "MAR",
+      "subCode": null,
+      "description": "MOROCCAN"
+    },
+    {
+      "actualCode": "MCO",
+      "subCode": null,
+      "description": "MONEGASQUE"
+    },
+    {
+      "actualCode": "MDA",
+      "subCode": null,
+      "description": "MOLDOVAN"
+    },
+    {
+      "actualCode": "MNE",
+      "subCode": null,
+      "description": "MONTENEGRIN"
+    },
+    {
+      "actualCode": "MAF",
+      "subCode": null,
+      "description": "SAINT MARTIN ISLANDER"
+    },
+    {
+      "actualCode": "MDG",
+      "subCode": null,
+      "description": "MALAGASY"
+    },
+    {
+      "actualCode": "MHL",
+      "subCode": null,
+      "description": "MARSHALLESE"
+    },
+    {
+      "actualCode": "MKD",
+      "subCode": null,
+      "description": "MACEDONIAN"
+    },
+    {
+      "actualCode": "MLI",
+      "subCode": null,
+      "description": "MALIAN"
+    },
+    {
+      "actualCode": "MMR",
+      "subCode": null,
+      "description": "MYANMAR"
+    },
+    {
+      "actualCode": "MNG",
+      "subCode": null,
+      "description": "MONGOLIAN"
+    },
+    {
+      "actualCode": "MAC",
+      "subCode": null,
+      "description": "CHINESE"
+    },
+    {
+      "actualCode": "MNP",
+      "subCode": null,
+      "description": "AMERICAN"
+    },
+    {
+      "actualCode": "MTQ",
+      "subCode": null,
+      "description": "FRENCH"
+    },
+    {
+      "actualCode": "MRT",
+      "subCode": null,
+      "description": "MAURITANIAN"
+    },
+    {
+      "actualCode": "MSR",
+      "subCode": null,
+      "description": "MONTSERRATIAN"
+    },
+    {
+      "actualCode": "MLT",
+      "subCode": null,
+      "description": "MALTESE"
+    },
+    {
+      "actualCode": "MUS",
+      "subCode": null,
+      "description": "MAURITIAN"
+    },
+    {
+      "actualCode": "MDV",
+      "subCode": null,
+      "description": "MALDIVAN"
+    },
+    {
+      "actualCode": "MWI",
+      "subCode": null,
+      "description": "MALAWIAN"
+    },
+    {
+      "actualCode": "MEX",
+      "subCode": null,
+      "description": "MEXICAN"
+    },
+    {
+      "actualCode": "MYS",
+      "subCode": null,
+      "description": "MALAYSIAN"
+    },
+    {
+      "actualCode": "MOZ",
+      "subCode": null,
+      "description": "MOZAMBICAN"
+    },
+    {
+      "actualCode": "NAM",
+      "subCode": null,
+      "description": "NAMIBIAN"
+    },
+    {
+      "actualCode": "NCL",
+      "subCode": null,
+      "description": "NEW CALEDONIAN"
+    },
+    {
+      "actualCode": "NER",
+      "subCode": null,
+      "description": "NIGERIAN"
+    },
+    {
+      "actualCode": "NFK",
+      "subCode": null,
+      "description": "NORFOLK ISLANDER"
+    },
+    {
+      "actualCode": "NGA",
+      "subCode": null,
+      "description": "NIGERIAN"
+    },
+    {
+      "actualCode": "NIC",
+      "subCode": null,
+      "description": "NICARAGUAN"
+    },
+    {
+      "actualCode": "NLD",
+      "subCode": null,
+      "description": "DUTCH"
+    },
+    {
+      "actualCode": "NOR",
+      "subCode": null,
+      "description": "NORWEGIAN"
+    },
+    {
+      "actualCode": "NPL",
+      "subCode": null,
+      "description": "NEPALESE"
+    },
+    {
+      "actualCode": "ATN",
+      "subCode": null,
+      "description": "DRONNING MAUD LAND"
+    },
+    {
+      "actualCode": "NRU",
+      "subCode": null,
+      "description": "NAURUAN"
+    },
+    {
+      "actualCode": "NTZ",
+      "subCode": null,
+      "description": "NEUTRAL ZONE"
+    },
+    {
+      "actualCode": "NIU",
+      "subCode": null,
+      "description": "NIUEAN"
+    },
+    {
+      "actualCode": "NZL",
+      "subCode": null,
+      "description": "NEW ZEALANDER"
+    },
+    {
+      "actualCode": "OMN",
+      "subCode": null,
+      "description": "OMANI"
+    },
+    {
+      "actualCode": "PAN",
+      "subCode": null,
+      "description": "PANAMANIAN"
+    },
+    {
+      "actualCode": "PCI",
+      "subCode": null,
+      "description": "PACIFIC ISLANDS TRUST TERRITORY"
+    },
+    {
+      "actualCode": "PER",
+      "subCode": null,
+      "description": "PERUVIAN"
+    },
+    {
+      "actualCode": "PYF",
+      "subCode": null,
+      "description": "FRENCH POLYNESIAN"
+    },
+    {
+      "actualCode": "PNG",
+      "subCode": null,
+      "description": "PAPUA NEW GUINEAN"
+    },
+    {
+      "actualCode": "PHL",
+      "subCode": null,
+      "description": "FILIPINO"
+    },
+    {
+      "actualCode": "PAK",
+      "subCode": null,
+      "description": "PAKISTANI"
+    },
+    {
+      "actualCode": "POL",
+      "subCode": null,
+      "description": "POLISH"
+    },
+    {
+      "actualCode": "SPM",
+      "subCode": null,
+      "description": "FRENCH"
+    },
+    {
+      "actualCode": "PCN",
+      "subCode": null,
+      "description": "PITCAIRN ISLANDER"
+    },
+    {
+      "actualCode": "PRI",
+      "subCode": null,
+      "description": "PUERTO RICAN"
+    },
+    {
+      "actualCode": "PSE",
+      "subCode": null,
+      "description": "PALESTINIAN"
+    },
+    {
+      "actualCode": "PRT",
+      "subCode": null,
+      "description": "PORTUGUESE"
+    },
+    {
+      "actualCode": "PUS",
+      "subCode": null,
+      "description": "U.S. MISCELLANEOUS PACIFIC ISLANDS"
+    },
+    {
+      "actualCode": "PLW",
+      "subCode": null,
+      "description": "PALAUAN"
+    },
+    {
+      "actualCode": "PRY",
+      "subCode": null,
+      "description": "PARAGUAYAN"
+    },
+    {
+      "actualCode": "PCZ",
+      "subCode": null,
+      "description": "PANAMA CANAL ZONE"
+    },
+    {
+      "actualCode": "QAT",
+      "subCode": null,
+      "description": "QATARI"
+    },
+    {
+      "actualCode": "REU",
+      "subCode": null,
+      "description": "FRENCH"
+    },
+    {
+      "actualCode": "ROU",
+      "subCode": null,
+      "description": "ROMANIAN"
+    },
+    {
+      "actualCode": "SRB",
+      "subCode": null,
+      "description": "SERBIAN"
+    },
+    {
+      "actualCode": "RUS",
+      "subCode": null,
+      "description": "RUSSIAN"
+    },
+    {
+      "actualCode": "RWA",
+      "subCode": null,
+      "description": "RWANDAN"
+    },
+    {
+      "actualCode": "SAU",
+      "subCode": null,
+      "description": "SAUDI ARABIAN"
+    },
+    {
+      "actualCode": "SLB",
+      "subCode": null,
+      "description": "SOLOMON ISLANDER"
+    },
+    {
+      "actualCode": "SYC",
+      "subCode": null,
+      "description": "SEYCHELLOIS"
+    },
+    {
+      "actualCode": "SDN",
+      "subCode": null,
+      "description": "SUDANESE"
+    },
+    {
+      "actualCode": "SWE",
+      "subCode": null,
+      "description": "SWEDISH"
+    },
+    {
+      "actualCode": "SGP",
+      "subCode": null,
+      "description": "SINGAPOREAN"
+    },
+    {
+      "actualCode": "SHN",
+      "subCode": null,
+      "description": "SAINT HELENIAN"
+    },
+    {
+      "actualCode": "SVN",
+      "subCode": null,
+      "description": "SLOVENE"
+    },
+    {
+      "actualCode": "SJM",
+      "subCode": null,
+      "description": "NORWEGIAN"
+    },
+    {
+      "actualCode": "SVK",
+      "subCode": null,
+      "description": "SLOVAK"
+    },
+    {
+      "actualCode": "SLE",
+      "subCode": null,
+      "description": "SIERRA LEONEAN"
+    },
+    {
+      "actualCode": "SMR",
+      "subCode": null,
+      "description": "SAMMARINESE"
+    },
+    {
+      "actualCode": "SEN",
+      "subCode": null,
+      "description": "SENEGALESE"
+    },
+    {
+      "actualCode": "SOM",
+      "subCode": null,
+      "description": "SOMALI"
+    },
+    {
+      "actualCode": "SUR",
+      "subCode": null,
+      "description": "SURINAMER"
+    },
+    {
+      "actualCode": "STP",
+      "subCode": null,
+      "description": "SAO TOMEAN"
+    },
+    {
+      "actualCode": "USS",
+      "subCode": null,
+      "description": "UNION OF SOVIET SOCIALIST REPUBLICS"
+    },
+    {
+      "actualCode": "SLV",
+      "subCode": null,
+      "description": "SALVADORAN"
+    },
+    {
+      "actualCode": "SYR",
+      "subCode": null,
+      "description": "SYRIAN"
+    },
+    {
+      "actualCode": "SWZ",
+      "subCode": null,
+      "description": "SWAZI"
+    },
+    {
+      "actualCode": "TCA",
+      "subCode": null,
+      "description": "TURKS AND CAICOS ISLANDER"
+    },
+    {
+      "actualCode": "TCD",
+      "subCode": null,
+      "description": "CHADIAN"
+    },
+    {
+      "actualCode": "ATF",
+      "subCode": null,
+      "description": "FRENCH"
+    },
+    {
+      "actualCode": "TGO",
+      "subCode": null,
+      "description": "TOGOLESE"
+    },
+    {
+      "actualCode": "THA",
+      "subCode": null,
+      "description": "THAI"
+    },
+    {
+      "actualCode": "TJK",
+      "subCode": null,
+      "description": "TADZHIK"
+    },
+    {
+      "actualCode": "TKL",
+      "subCode": null,
+      "description": "TOKELAUAN"
+    },
+    {
+      "actualCode": "TLS",
+      "subCode": null,
+      "description": "EAST TIMORESE"
+    },
+    {
+      "actualCode": "TKM",
+      "subCode": null,
+      "description": "TURKMEN"
+    },
+    {
+      "actualCode": "TUN",
+      "subCode": null,
+      "description": "TUNISIAN"
+    },
+    {
+      "actualCode": "TON",
+      "subCode": null,
+      "description": "TONGAN"
+    },
+    {
+      "actualCode": "TUR",
+      "subCode": null,
+      "description": "TURKISH"
+    },
+    {
+      "actualCode": "TTO",
+      "subCode": null,
+      "description": "TRINIDADIAN"
+    },
+    {
+      "actualCode": "TUV",
+      "subCode": null,
+      "description": "TUVALUAN"
+    },
+    {
+      "actualCode": "TWN",
+      "subCode": null,
+      "description": "TAIWANESE"
+    },
+    {
+      "actualCode": "TZA",
+      "subCode": null,
+      "description": "TANZANIAN"
+    },
+    {
+      "actualCode": "UKR",
+      "subCode": null,
+      "description": "UKRAINIAN"
+    },
+    {
+      "actualCode": "UGA",
+      "subCode": null,
+      "description": "UGANDAN"
+    },
+    {
+      "actualCode": "UMI",
+      "subCode": null,
+      "description": "AMERICAN"
+    },
+    {
+      "actualCode": "USA",
+      "subCode": null,
+      "description": "AMERICAN"
+    },
+    {
+      "actualCode": "URY",
+      "subCode": null,
+      "description": "URUGUAYAN"
+    },
+    {
+      "actualCode": "UZB",
+      "subCode": null,
+      "description": "UZBEKISTANI"
+    },
+    {
+      "actualCode": "VAT",
+      "subCode": null,
+      "description": "ITALIAN"
+    },
+    {
+      "actualCode": "VCT",
+      "subCode": null,
+      "description": "SAINT VINCENTIAN"
+    },
+    {
+      "actualCode": "VDR",
+      "subCode": null,
+      "description": "NORTH VIETNAM"
+    },
+    {
+      "actualCode": "VEN",
+      "subCode": null,
+      "description": "VENEZUELAN"
+    },
+    {
+      "actualCode": "VGB",
+      "subCode": null,
+      "description": "VIRGIN ISLANDER"
+    },
+    {
+      "actualCode": "VIR",
+      "subCode": null,
+      "description": "VIRGIN ISLANDER"
+    },
+    {
+      "actualCode": "VNM",
+      "subCode": null,
+      "description": "VIETNAMESE"
+    },
+    {
+      "actualCode": "VUT",
+      "subCode": null,
+      "description": "NI-VANUATU"
+    },
+    {
+      "actualCode": "WLF",
+      "subCode": null,
+      "description": "WALLIS AND FUTUNA ISLANDER"
+    },
+    {
+      "actualCode": "WAK",
+      "subCode": null,
+      "description": "WAKE ISLAND"
+    },
+    {
+      "actualCode": "WSM",
+      "subCode": null,
+      "description": "SAMOAN"
+    },
+    {
+      "actualCode": "YEM",
+      "subCode": null,
+      "description": "YEMENI"
+    },
+    {
+      "actualCode": "MYT",
+      "subCode": null,
+      "description": "FRENCH"
+    },
+    {
+      "actualCode": "ZAF",
+      "subCode": null,
+      "description": "SOUTH AFRICAN"
+    },
+    {
+      "actualCode": "ZMB",
+      "subCode": null,
+      "description": "ZAMBIAN"
+    },
+    {
+      "actualCode": "ZWE",
+      "subCode": null,
+      "description": "ZIMBABWEAN"
+    }
+  ],
+  "documentTypeList": [
+    {
+      "actualCode": "300",
+      "subCode": null,
+      "description": "NATIONAL ID"
+    },
+    {
+      "actualCode": "901",
+      "subCode": null,
+      "description": "SERVICE ID"
+    },
+    {
+      "actualCode": "700",
+      "subCode": null,
+      "description": "BUSINESS REGISTRATION CERIFICATE"
+    },
+    {
+      "actualCode": "800",
+      "subCode": null,
+      "description": "CERTIFICATE OF INCORPORATION"
+    },
+    {
+      "actualCode": "400",
+      "subCode": null,
+      "description": "TEACHER'S UNION ID"
+    },
+    {
+      "actualCode": "701",
+      "subCode": null,
+      "description": "OTHER IDENTIFICATION ID"
+    },
+    {
+      "actualCode": "100",
+      "subCode": null,
+      "description": "PASSPORT"
+    },
+    {
+      "actualCode": "500",
+      "subCode": null,
+      "description": "DRIVER'S LICENSE"
+    },
+    {
+      "actualCode": "600",
+      "subCode": null,
+      "description": "VOTER ID"
+    },
+    {
+      "actualCode": "900",
+      "subCode": null,
+      "description": "NASSIT ID"
+    }
+  ],
+  "accountTypeList": [
+    {
+      "actualCode": "C",
+      "subCode": null,
+      "description": "CORPORATE"
+    },
+    {
+      "actualCode": "I",
+      "subCode": null,
+      "description": "PERSONAL"
+    }
+  ],
+  "productList": [
+    {
+      "actualCode": "226",
+      "subCode": "S",
+      "description": "SAVINGS ACCOUNT - SIB SUSU SAVINGS - 3 MONTH"
+    },
+    {
+      "actualCode": "227",
+      "subCode": "S",
+      "description": "SAVINGS ACCOUNT - MSAVINGS"
+    },
+    {
+      "actualCode": "228",
+      "subCode": "S",
+      "description": "SAVINGS ACCOUNT - SIB VIRTUAL WALLET"
+    },
+    {
+      "actualCode": "229",
+      "subCode": "S",
+      "description": "SAVINGS ACCOUNT - SIB SUSU SAVINGS - 6 MONTH"
+    },
+    {
+      "actualCode": "230",
+      "subCode": "S",
+      "description": "SAVINGS ACCOUNT - SIB SUSU SAVINGS - 12 MONTH"
+    }
+  ],
+  "relationshipManagerList": [
+    {
+      "actualCode": "X000",
+      "subCode": null,
+      "description": "UNASSIGNED"
+    },
+    {
+      "actualCode": "R007",
+      "subCode": null,
+      "description": "GL RM - GANTA"
+    },
+    {
+      "actualCode": "R008",
+      "subCode": null,
+      "description": "GL RM - SINOE"
+    },
+    {
+      "actualCode": "R009",
+      "subCode": null,
+      "description": "GL RM - RANDALL STREET"
+    },
+    {
+      "actualCode": "R010",
+      "subCode": null,
+      "description": "GL RM - KAKATA"
+    },
+    {
+      "actualCode": "00061",
+      "subCode": null,
+      "description": "UNSUPPORT"
+    },
+    {
+      "actualCode": "00062",
+      "subCode": null,
+      "description": "HAWA ONOS"
+    },
+    {
+      "actualCode": "00064",
+      "subCode": null,
+      "description": "JUSU B.KAMARA"
+    },
+    {
+      "actualCode": "00066",
+      "subCode": null,
+      "description": "JOSEPH G. TWOE, JR."
+    },
+    {
+      "actualCode": "00067",
+      "subCode": null,
+      "description": "PRINCE HARVEY"
+    },
+    {
+      "actualCode": "00071",
+      "subCode": null,
+      "description": "FAMATA FREDERICKS"
+    },
+    {
+      "actualCode": "00072",
+      "subCode": null,
+      "description": "OTHELLO BEASEAH KIEH"
+    },
+    {
+      "actualCode": "00021",
+      "subCode": null,
+      "description": "EMMANUEL TOGBAH"
+    },
+    {
+      "actualCode": "00095",
+      "subCode": null,
+      "description": "GRACE BAKER"
+    },
+    {
+      "actualCode": "00156",
+      "subCode": null,
+      "description": "SOLOMON GEE"
+    },
+    {
+      "actualCode": "R011",
+      "subCode": null,
+      "description": "GL RM - NPA"
+    },
+    {
+      "actualCode": "00216",
+      "subCode": null,
+      "description": "CHARLESETTA N. JACKSON"
+    },
+    {
+      "actualCode": "00217",
+      "subCode": null,
+      "description": "EUGENE N. QUAIYE"
+    },
+    {
+      "actualCode": "00218",
+      "subCode": null,
+      "description": "MIATTA S. JARRY"
+    },
+    {
+      "actualCode": "00256",
+      "subCode": null,
+      "description": "WILLIAM D. MARTIN"
+    },
+    {
+      "actualCode": "00236",
+      "subCode": null,
+      "description": "WILLIAM DASSIN"
+    },
+    {
+      "actualCode": "00237",
+      "subCode": null,
+      "description": "MOLLEY M. KORLEH"
+    },
+    {
+      "actualCode": "00238",
+      "subCode": null,
+      "description": "CHRISTIANA MARSHALL"
+    },
+    {
+      "actualCode": "00239",
+      "subCode": null,
+      "description": "CHRISTOPHER KANDAKAI"
+    },
+    {
+      "actualCode": "00240",
+      "subCode": null,
+      "description": "BRIMA B. SANNOH"
+    },
+    {
+      "actualCode": "00196",
+      "subCode": null,
+      "description": "JULIA CLARKE"
+    },
+    {
+      "actualCode": "00276",
+      "subCode": null,
+      "description": "LAWRENCE B YANKA"
+    },
+    {
+      "actualCode": "00300",
+      "subCode": null,
+      "description": "NASOUROH DIENG"
+    },
+    {
+      "actualCode": "0000",
+      "subCode": null,
+      "description": "OFFICE"
+    },
+    {
+      "actualCode": "R000",
+      "subCode": null,
+      "description": "GL RM - HEAD OFFICE"
+    },
+    {
+      "actualCode": "R001",
+      "subCode": null,
+      "description": "GL RM - MAIN"
+    },
+    {
+      "actualCode": "R002",
+      "subCode": null,
+      "description": "GL RM - REDLIGHT"
+    },
+    {
+      "actualCode": "R003",
+      "subCode": null,
+      "description": "GL RM - BUCHANAN"
+    },
+    {
+      "actualCode": "R004",
+      "subCode": null,
+      "description": "GL RM - SINKOR"
+    },
+    {
+      "actualCode": "R005",
+      "subCode": null,
+      "description": "GL RM - CLARA TOWN"
+    },
+    {
+      "actualCode": "R006",
+      "subCode": null,
+      "description": "GL RM - DUALA"
+    },
+    {
+      "actualCode": "0019",
+      "subCode": null,
+      "description": "TESTT22"
+    },
+    {
+      "actualCode": "11233",
+      "subCode": null,
+      "description": "ME"
+    },
+    {
+      "actualCode": "45653",
+      "subCode": null,
+      "description": "RFFA"
+    },
+    {
+      "actualCode": "10000",
+      "subCode": null,
+      "description": "HEAD RETAIL BANKING"
+    }
+  ],
+  "sectorList": [
+    {
+      "actualCode": "0410",
+      "subCode": null,
+      "description": "Business Services - DIPLOMATIC MISSIONS"
+    },
+    {
+      "actualCode": "0411",
+      "subCode": null,
+      "description": "Business Services - EDUCATIONAL INSTITUTIONS"
+    },
+    {
+      "actualCode": "0412",
+      "subCode": null,
+      "description": "Business Services - PRINTING"
+    },
+    {
+      "actualCode": "3001",
+      "subCode": null,
+      "description": "Communication - MOBILE TELECOMMUNICATIONS"
+    },
+    {
+      "actualCode": "3002",
+      "subCode": null,
+      "description": "Communication - INTERNET SERVICES"
+    },
+    {
+      "actualCode": "0201",
+      "subCode": null,
+      "description": "Marine Resources - FERRY SERVICES"
+    },
+    {
+      "actualCode": "0202",
+      "subCode": null,
+      "description": "Marine Resources - SHIPPING"
+    },
+    {
+      "actualCode": "0203",
+      "subCode": null,
+      "description": "Marine Resources - FREIGHT AND FORWARD"
+    },
+    {
+      "actualCode": "0204",
+      "subCode": null,
+      "description": "Marine Resources - OTHER MARINE RESOURCES"
+    },
+    {
+      "actualCode": "0506",
+      "subCode": null,
+      "description": "Personal Services - PERSONAL ACCOUNT"
+    },
+    {
+      "actualCode": "0507",
+      "subCode": null,
+      "description": "Personal Services - PEP (POLITICALLY EXPOSED PERSON)"
+    },
+    {
+      "actualCode": "0508",
+      "subCode": null,
+      "description": "Personal Services - LAND LORDS"
+    },
+    {
+      "actualCode": "0509",
+      "subCode": null,
+      "description": "Personal Services - HIGH NET WORTH INDIVIDUALS"
+    },
+    {
+      "actualCode": "0510",
+      "subCode": null,
+      "description": "Personal Services - HIGH NET WORTH JOINT"
+    },
+    {
+      "actualCode": "0511",
+      "subCode": null,
+      "description": "Personal Services - FOREIGN ACCOUNT"
+    },
+    {
+      "actualCode": "0301",
+      "subCode": null,
+      "description": "Petroleum - OIL MARKETING"
+    },
+    {
+      "actualCode": "0302",
+      "subCode": null,
+      "description": "Petroleum - FUEL RETAIL STATIONS"
+    },
+    {
+      "actualCode": "0303",
+      "subCode": null,
+      "description": "Petroleum - FUEL TRANSPORTATION"
+    },
+    {
+      "actualCode": "1001",
+      "subCode": null,
+      "description": "AGRICULTURE - FISHERY"
+    },
+    {
+      "actualCode": "1002",
+      "subCode": null,
+      "description": "AGRICULTURE - RUBBER"
+    },
+    {
+      "actualCode": "1003",
+      "subCode": null,
+      "description": "AGRICULTURE - FORESTRY"
+    },
+    {
+      "actualCode": "1009",
+      "subCode": null,
+      "description": "AGRICULTURE - OTHER AGRICULTURE"
+    },
+    {
+      "actualCode": "9101",
+      "subCode": null,
+      "description": "CENTRAL BANK - CENTRAL BANK"
+    },
+    {
+      "actualCode": "5001",
+      "subCode": null,
+      "description": "CONSTRUCTION - COMMERCIAL MORTGAGE"
+    },
+    {
+      "actualCode": "5002",
+      "subCode": null,
+      "description": "CONSTRUCTION - HOME MORTGAGE"
+    },
+    {
+      "actualCode": "5003",
+      "subCode": null,
+      "description": "CONSTRUCTION - ROAD CONSTRUCTION"
+    },
+    {
+      "actualCode": "5005",
+      "subCode": null,
+      "description": "CONSTRUCTION - OTHER CONSTRUCTION"
+    },
+    {
+      "actualCode": "4001",
+      "subCode": null,
+      "description": "MANUFACTURING - FURNITURE"
+    },
+    {
+      "actualCode": "4002",
+      "subCode": null,
+      "description": "MANUFACTURING - BEVERAGES"
+    },
+    {
+      "actualCode": "4003",
+      "subCode": null,
+      "description": "MANUFACTURING - EQUIPMENT"
+    },
+    {
+      "actualCode": "4004",
+      "subCode": null,
+      "description": "MANUFACTURING - OTHERS"
+    },
+    {
+      "actualCode": "7001",
+      "subCode": null,
+      "description": "TRADE - DIAMOND"
+    },
+    {
+      "actualCode": "7002",
+      "subCode": null,
+      "description": "TRADE - GOLD"
+    },
+    {
+      "actualCode": "7003",
+      "subCode": null,
+      "description": "TRADE - OTHER TRADE"
+    },
+    {
+      "actualCode": "2001",
+      "subCode": null,
+      "description": "EXTRACTIVE - IRON ORE"
+    },
+    {
+      "actualCode": "2002",
+      "subCode": null,
+      "description": "EXTRACTIVE - DIAMOND"
+    },
+    {
+      "actualCode": "2003",
+      "subCode": null,
+      "description": "EXTRACTIVE - GOLD"
+    },
+    {
+      "actualCode": "2004",
+      "subCode": null,
+      "description": "EXTRACTIVE - QUARRYING"
+    },
+    {
+      "actualCode": "2009",
+      "subCode": null,
+      "description": "EXTRACTIVE - OTHER EXTRACTIVE"
+    },
+    {
+      "actualCode": "9001",
+      "subCode": null,
+      "description": "GOVERNMENT OF LIBERIA - GOVERNMENT OF LIBERIA"
+    },
+    {
+      "actualCode": "9301",
+      "subCode": null,
+      "description": "OIL AND GAS - OIL AND GAS"
+    },
+    {
+      "actualCode": "9901",
+      "subCode": null,
+      "description": "OTHERS - OTHERS"
+    },
+    {
+      "actualCode": "9201",
+      "subCode": null,
+      "description": "PUBLIC CORPORATIONS - PUBLIC CORPORATIONS"
+    },
+    {
+      "actualCode": "8001",
+      "subCode": null,
+      "description": "PERSONAL - PERSONAL"
+    },
+    {
+      "actualCode": "6001",
+      "subCode": null,
+      "description": "SERVICES - TRANSPORTATION"
+    },
+    {
+      "actualCode": "6002",
+      "subCode": null,
+      "description": "SERVICES - STORAGE"
+    },
+    {
+      "actualCode": "6003",
+      "subCode": null,
+      "description": "SERVICES - COMMUNICATION"
+    },
+    {
+      "actualCode": "6004",
+      "subCode": null,
+      "description": "SERVICES - HOTELS"
+    },
+    {
+      "actualCode": "6005",
+      "subCode": null,
+      "description": "SERVICES - BAR AND RESTAURANT"
+    },
+    {
+      "actualCode": "6009",
+      "subCode": null,
+      "description": "SERVICES - OTHER SERVICES"
+    },
+    {
+      "actualCode": "0101",
+      "subCode": null,
+      "description": "Miscellaneous - STUDENT"
+    },
+    {
+      "actualCode": "0102",
+      "subCode": null,
+      "description": "Miscellaneous - STAFF"
+    },
+    {
+      "actualCode": "0103",
+      "subCode": null,
+      "description": "Miscellaneous - PEP - POLITICALLY-EXPOSED PERSONS"
+    },
+    {
+      "actualCode": "0104",
+      "subCode": null,
+      "description": "Miscellaneous - OTHER MISCELLANEOUS"
+    },
+    {
+      "actualCode": "0105",
+      "subCode": null,
+      "description": "Miscellaneous - GOVERNMENT WORKER"
+    },
+    {
+      "actualCode": "0401",
+      "subCode": null,
+      "description": "Business Services - LEGAL SERVICES"
+    },
+    {
+      "actualCode": "0402",
+      "subCode": null,
+      "description": "Business Services - ARCHITECTURAL DESIGNS"
+    },
+    {
+      "actualCode": "0403",
+      "subCode": null,
+      "description": "Business Services - VEHICLE AND EQUIPMENT HIRE SERVICES"
+    },
+    {
+      "actualCode": "0404",
+      "subCode": null,
+      "description": "Business Services - AUDIT, TAXATION AND ACCOUNTANCY"
+    },
+    {
+      "actualCode": "0405",
+      "subCode": null,
+      "description": "Business Services - CAR DEALERSHIP"
+    },
+    {
+      "actualCode": "0406",
+      "subCode": null,
+      "description": "Business Services - DEBT COLLECTIONS"
+    },
+    {
+      "actualCode": "0407",
+      "subCode": null,
+      "description": "Business Services - INSPECTIONS"
+    },
+    {
+      "actualCode": "0408",
+      "subCode": null,
+      "description": "Business Services - QUANTITY SURVEYS"
+    },
+    {
+      "actualCode": "0409",
+      "subCode": null,
+      "description": "Business Services - OTHER BUSINESS SERVICES"
+    },
+    {
+      "actualCode": "0501",
+      "subCode": null,
+      "description": "Personal Services - CONSULTANCY"
+    },
+    {
+      "actualCode": "0502",
+      "subCode": null,
+      "description": "Personal Services - PLUMBING SERVICES"
+    },
+    {
+      "actualCode": "0503",
+      "subCode": null,
+      "description": "Personal Services - ELECTRICAL SERVICES"
+    },
+    {
+      "actualCode": "0504",
+      "subCode": null,
+      "description": "Personal Services - FINANCIAL MANAGEMENT"
+    },
+    {
+      "actualCode": "0505",
+      "subCode": null,
+      "description": "Personal Services - OTHER PERSONAL SERVICES"
+    },
+    {
+      "actualCode": "1004",
+      "subCode": null,
+      "description": "AGRICULTURE - OTHER AGRICULTURE"
+    },
+    {
+      "actualCode": "4005",
+      "subCode": null,
+      "description": "MANUFACTURING - CHEMICALS AND FERTLIZER"
+    },
+    {
+      "actualCode": "4006",
+      "subCode": null,
+      "description": "MANUFACTURING - IRON AND STEEL"
+    },
+    {
+      "actualCode": "4007",
+      "subCode": null,
+      "description": "MANUFACTURING - OTHERS UNCLASSIFIED"
+    },
+    {
+      "actualCode": "4009",
+      "subCode": null,
+      "description": "MANUFACTURING - FOOTWEAR"
+    },
+    {
+      "actualCode": "4010",
+      "subCode": null,
+      "description": "MANUFACTURING - PROCESSING"
+    },
+    {
+      "actualCode": "4011",
+      "subCode": null,
+      "description": "MANUFACTURING - PRODUCTS"
+    },
+    {
+      "actualCode": "9004",
+      "subCode": null,
+      "description": "GOVERNMENT OF LIBERIA - PRINTING PUBLISHING &  ALLIED PRODUCTS"
+    },
+    {
+      "actualCode": "9002",
+      "subCode": null,
+      "description": "GOVERNMENT OF LIBERIA - RECREATION SERVICES"
+    },
+    {
+      "actualCode": "9003",
+      "subCode": null,
+      "description": "GOVERNMENT OF LIBERIA - OTHER SERVICES"
+    },
+    {
+      "actualCode": "1005",
+      "subCode": null,
+      "description": "AGRICULTURE - FORESTRY AND LOGGING"
+    },
+    {
+      "actualCode": "1006",
+      "subCode": null,
+      "description": "AGRICULTURE - FISHING"
+    },
+    {
+      "actualCode": "1007",
+      "subCode": null,
+      "description": "AGRICULTURE - RICE PRODUCTION"
+    }
+  ],
+  "occupationList": [
+    {
+      "actualCode": "001",
+      "subCode": null,
+      "description": "TRADER"
+    },
+    {
+      "actualCode": "002",
+      "subCode": null,
+      "description": "HEALTH WORKER"
+    },
+    {
+      "actualCode": "003",
+      "subCode": null,
+      "description": "EDUCATION"
+    },
+    {
+      "actualCode": "000",
+      "subCode": null,
+      "description": "OTHERS"
+    },
+    {
+      "actualCode": "004",
+      "subCode": null,
+      "description": "BANKER"
+    },
+    {
+      "actualCode": "005",
+      "subCode": null,
+      "description": "IT PERSONNEL"
+    },
+    {
+      "actualCode": "006",
+      "subCode": null,
+      "description": "TECHNICIAN"
+    },
+    {
+      "actualCode": "007",
+      "subCode": null,
+      "description": "MECHANIC"
+    },
+    {
+      "actualCode": "008",
+      "subCode": null,
+      "description": "CIVIL SERVANT"
+    },
+    {
+      "actualCode": "009",
+      "subCode": null,
+      "description": "PUBLIC OFFICER"
+    }
+  ],
+  "sourceOfFundsList": [
+    {
+      "actualCode": "001",
+      "subCode": null,
+      "description": "BUSINESS SALES"
+    },
+    {
+      "actualCode": "002",
+      "subCode": null,
+      "description": "PROCEEDS FROM ESTATE"
+    },
+    {
+      "actualCode": "004",
+      "subCode": null,
+      "description": "COMMISSIONS"
+    },
+    {
+      "actualCode": "005",
+      "subCode": null,
+      "description": "DIVIDENDS"
+    },
+    {
+      "actualCode": "999",
+      "subCode": null,
+      "description": "OTHERS"
+    },
+    {
+      "actualCode": "006",
+      "subCode": null,
+      "description": "BUSINESS PROFITS"
+    },
+    {
+      "actualCode": "007",
+      "subCode": null,
+      "description": "CONSULTANCY FEES"
+    },
+    {
+      "actualCode": "008",
+      "subCode": null,
+      "description": "RENT ON PROPERTIES"
+    },
+    {
+      "actualCode": "009",
+      "subCode": null,
+      "description": "EMPLOYMENT ALLOWANCES"
+    },
+    {
+      "actualCode": "010",
+      "subCode": null,
+      "description": "CONTRACT PROCEEDS"
+    },
+    {
+      "actualCode": "011",
+      "subCode": null,
+      "description": "REGULAR FAMILY SUPPORT"
+    },
+    {
+      "actualCode": "012",
+      "subCode": null,
+      "description": "PENSION"
+    },
+    {
+      "actualCode": "013",
+      "subCode": null,
+      "description": "PROCEEDS ON INVESTMENT"
+    },
+    {
+      "actualCode": "003",
+      "subCode": null,
+      "description": "SALARY"
+    }
+  ],
+  "sourceOfWealthList": [
+    {
+      "actualCode": "001",
+      "subCode": null,
+      "description": "SAVINGS"
+    },
+    {
+      "actualCode": "002",
+      "subCode": null,
+      "description": "INHERITANCE"
+    },
+    {
+      "actualCode": "003",
+      "subCode": null,
+      "description": "LAND AND BUILDING"
+    },
+    {
+      "actualCode": "004",
+      "subCode": null,
+      "description": "SHARES"
+    },
+    {
+      "actualCode": "005",
+      "subCode": null,
+      "description": "GIFTS"
+    },
+    {
+      "actualCode": "006",
+      "subCode": null,
+      "description": "BUSINESS INTEREST"
+    }
+  ],
+  "riskCodeList": [
+    {
+      "actualCode": "K01",
+      "subCode": null,
+      "description": "Low Risk"
+    },
+    {
+      "actualCode": "K02",
+      "subCode": null,
+      "description": "Medium Risk"
+    },
+    {
+      "actualCode": "K04",
+      "subCode": null,
+      "description": "High Risk "
+    },
+    {
+      "actualCode": "K05",
+      "subCode": null,
+      "description": "None"
+    }
+  ],
+  "maritalStatusList": [
+    {
+      "actualCode": "MAR",
+      "subCode": null,
+      "description": "MARRIED"
+    },
+    {
+      "actualCode": "SNG",
+      "subCode": null,
+      "description": "SINGLE"
+    },
+    {
+      "actualCode": "DIV",
+      "subCode": null,
+      "description": "DIVORCED"
+    },
+    {
+      "actualCode": "SEP",
+      "subCode": null,
+      "description": "SEPARATED"
+    },
+    {
+      "actualCode": "WDW",
+      "subCode": null,
+      "description": "WIDOW"
+    },
+    {
+      "actualCode": "NON",
+      "subCode": null,
+      "description": "Not Specified"
+    }
+  ],
+  "branchList": [
+    {
+      "actualCode": "0",
+      "subCode": null,
+      "description": "CONSOLIDATED"
+    },
+    {
+      "actualCode": "000",
+      "subCode": null,
+      "description": "HEAD OFFICE"
+    },
+    {
+      "actualCode": "001",
+      "subCode": null,
+      "description": "Branch 1"
+    },
+    {
+      "actualCode": "002",
+      "subCode": null,
+      "description": "Branch 2"
+    },
+    {
+      "actualCode": "003",
+      "subCode": null,
+      "description": "BUCHANAN"
+    },
+    {
+      "actualCode": "004",
+      "subCode": null,
+      "description": "SINKOR"
+    },
+    {
+      "actualCode": "005",
+      "subCode": null,
+      "description": "CLARA TOWN"
+    },
+    {
+      "actualCode": "006",
+      "subCode": null,
+      "description": "DUALA"
+    },
+    {
+      "actualCode": "007",
+      "subCode": null,
+      "description": "GANTA"
+    },
+    {
+      "actualCode": "008",
+      "subCode": null,
+      "description": "SINOE"
+    },
+    {
+      "actualCode": "009",
+      "subCode": null,
+      "description": "RANDALL STREET"
+    },
+    {
+      "actualCode": "010",
+      "subCode": null,
+      "description": "KAKATA"
+    },
+    {
+      "actualCode": "011",
+      "subCode": null,
+      "description": "NPA"
+    },
+    {
+      "actualCode": "012",
+      "subCode": null,
+      "description": "BOMI"
+    }
+  ],
+  "segmentList": [
+    {
+      "actualCode": "1000",
+      "subCode": "I",
+      "description": "PERSONAL  BANKING - GN BANK STAFF"
+    },
+    {
+      "actualCode": "1001",
+      "subCode": "I",
+      "description": "PERSONAL  BANKING - INDIVIDUALS"
+    },
+    {
+      "actualCode": "1002",
+      "subCode": "I",
+      "description": "PERSONAL  BANKING - SALARY ACCOUNTS"
+    },
+    {
+      "actualCode": "1003",
+      "subCode": "I",
+      "description": "PERSONAL  BANKING - JOINT ACCOUNTS"
+    },
+    {
+      "actualCode": "1004",
+      "subCode": "I",
+      "description": "PERSONAL  BANKING - HIGH NET WORTH INDIVIDUALS"
+    },
+    {
+      "actualCode": "1005",
+      "subCode": "I",
+      "description": "PERSONAL  BANKING - HIGH NET WORTH JOINT ACCOUNTS"
+    },
+    {
+      "actualCode": "1006",
+      "subCode": "I",
+      "description": "PERSONAL  BANKING - WEALTHY INDIVIDUALS"
+    },
+    {
+      "actualCode": "1007",
+      "subCode": "I",
+      "description": "PERSONAL  BANKING - PEP -POLITICALLY-EXPOSED PERSONS"
+    },
+    {
+      "actualCode": "1008",
+      "subCode": "I",
+      "description": "PERSONAL  BANKING - MINOR TRUST ACCOUNT"
+    },
+    {
+      "actualCode": "0000",
+      "subCode": "I",
+      "description": " - N/A"
+    },
+    {
+      "actualCode": "4001",
+      "subCode": "C",
+      "description": "CORPORATE BANKING - LARGE-SIZE TRADING ENTERPRISES"
+    },
+    {
+      "actualCode": "4002",
+      "subCode": "C",
+      "description": "CORPORATE BANKING - LARGE CORPORATES - MULTI NATIONALS"
+    },
+    {
+      "actualCode": "4003",
+      "subCode": "C",
+      "description": "CORPORATE BANKING - LARGE CORPORATES- OTHERS"
+    },
+    {
+      "actualCode": "4004",
+      "subCode": "C",
+      "description": "CORPORATE BANKING - PUBLIC SECTOR - MDAS"
+    },
+    {
+      "actualCode": "4005",
+      "subCode": "C",
+      "description": "CORPORATE BANKING - NON GOVERNMENTAL ORGANISATIONS (NGO)"
+    },
+    {
+      "actualCode": "4006",
+      "subCode": "C",
+      "description": "CORPORATE BANKING - PUBLIC SECTOR - PARASTATALS"
+    },
+    {
+      "actualCode": "4007",
+      "subCode": "C",
+      "description": "CORPORATE BANKING - DIPLOMATIC MISSIONS AND UN AGENCIES"
+    },
+    {
+      "actualCode": "4008",
+      "subCode": "C",
+      "description": "CORPORATE BANKING - EDUCATIONAL INSTITUTIONS"
+    },
+    {
+      "actualCode": "4009",
+      "subCode": "C",
+      "description": "CORPORATE BANKING - PUBLIC SECTOR - FUNDED PROJECTS"
+    },
+    {
+      "actualCode": "4010",
+      "subCode": "C",
+      "description": "CORPORATE BANKING - MIDDLE MARKET"
+    },
+    {
+      "actualCode": "4011",
+      "subCode": "C",
+      "description": "CORPORATE BANKING - LOCAL CORPORATES - FINANCIAL INSTITUTIONS"
+    },
+    {
+      "actualCode": "4012",
+      "subCode": "C",
+      "description": "CORPORATE BANKING - BANKS"
+    },
+    {
+      "actualCode": "4013",
+      "subCode": "C",
+      "description": "CORPORATE BANKING - LOCAL CORPORATES -OTHERS"
+    },
+    {
+      "actualCode": "4014",
+      "subCode": "C",
+      "description": "CORPORATE BANKING - INTERNATIONAL NGOS"
+    },
+    {
+      "actualCode": "4015",
+      "subCode": "C",
+      "description": "CORPORATE BANKING - MINING AND AGRICULTURE"
+    },
+    {
+      "actualCode": "4016",
+      "subCode": "C",
+      "description": "CORPORATE BANKING - OTHER INTERNATIONAL ORGANISATIONS"
+    },
+    {
+      "actualCode": "0000",
+      "subCode": "C",
+      "description": " - N/A"
+    },
+    {
+      "actualCode": "2004",
+      "subCode": "C",
+      "description": "BUSINESS BANKING - PARTNERSHIP"
+    },
+    {
+      "actualCode": "2005",
+      "subCode": "C",
+      "description": "BUSINESS BANKING - SOLE PROPRIETORSHIP"
+    },
+    {
+      "actualCode": "2006",
+      "subCode": "C",
+      "description": "BUSINESS BANKING - CLUBS & ASSOCIATIONS"
+    },
+    {
+      "actualCode": "2007",
+      "subCode": "C",
+      "description": "BUSINESS BANKING - SMALL BUSINESSES - ANNUAL TURNOVER BELOW -USD 50,000.00"
+    },
+    {
+      "actualCode": "2008",
+      "subCode": "C",
+      "description": "BUSINESS BANKING - RELIGIOUS  INSTITUTIONS"
+    },
+    {
+      "actualCode": "2009",
+      "subCode": "C",
+      "description": "BUSINESS BANKING - HIGH NET WORTH PARTNERSHIP"
+    },
+    {
+      "actualCode": "2010",
+      "subCode": "C",
+      "description": "BUSINESS BANKING - PUBLIC SECTOR-OTHERS"
+    },
+    {
+      "actualCode": "2011",
+      "subCode": "C",
+      "description": "BUSINESS BANKING - PUBLIC SECTOR-SCHOOLS"
+    },
+    {
+      "actualCode": "2012",
+      "subCode": "C",
+      "description": "BUSINESS BANKING - PRIVATE SECTOR-SCHOOLS"
+    },
+    {
+      "actualCode": "2013",
+      "subCode": "C",
+      "description": "BUSINESS BANKING - HEALTH INSTITUTIONS"
+    },
+    {
+      "actualCode": "2001",
+      "subCode": "C",
+      "description": "BUSINESS BANKING - MID-SIZED BUSINESSES"
+    },
+    {
+      "actualCode": "2002",
+      "subCode": "C",
+      "description": "BUSINESS BANKING - LOCAL NGO"
+    },
+    {
+      "actualCode": "2003",
+      "subCode": "C",
+      "description": "BUSINESS BANKING - PROFESSIONAL FIRMS"
+    },
+    {
+      "actualCode": "0000",
+      "subCode": "C",
+      "description": " - N/A"
+    }
+  ],
+  "residentStatusList": [
+    {
+      "actualCode": "Y",
+      "subCode": null,
+      "description": "RESIDENT"
+    },
+    {
+      "actualCode": "N",
+      "subCode": null,
+      "description": "NON RESIDENT"
+    }
+  ],
+  "suffixList": [
+    {
+      "actualCode": "002",
+      "subCode": null,
+      "description": "CHIEF"
+    },
+    {
+      "actualCode": "001",
+      "subCode": null,
+      "description": "PROF."
+    },
+    {
+      "actualCode": "003",
+      "subCode": null,
+      "description": "DR."
+    }
+  ],
+  "languageList": [
+    {
+      "actualCode": "ENG",
+      "subCode": null,
+      "description": "ENGLISH"
+    },
+    {
+      "actualCode": "FRN",
+      "subCode": null,
+      "description": "FRENCH"
+    },
+    {
+      "actualCode": "EWE",
+      "subCode": null,
+      "description": "EWE"
+    },
+    {
+      "actualCode": "GA",
+      "subCode": null,
+      "description": "GA"
+    },
+    {
+      "actualCode": "TWI",
+      "subCode": null,
+      "description": "TWI"
+    },
+    {
+      "actualCode": "HSA",
+      "subCode": null,
+      "description": "HAUSA"
+    }
+  ],
+  "staffCategoryList": [
+    {
+      "actualCode": "Y",
+      "subCode": null,
+      "description": "STAFF"
+    },
+    {
+      "actualCode": "N",
+      "subCode": null,
+      "description": "NON STAFF"
+    }
+  ],
+  "constitutionCodeList": [
+    {
+      "actualCode": "001",
+      "subCode": null,
+      "description": "OFFICIAL"
+    },
+    {
+      "actualCode": "002",
+      "subCode": null,
+      "description": "POLITICAL"
+    },
+    {
+      "actualCode": "003",
+      "subCode": null,
+      "description": "LEGAL"
+    }
+  ],
+  "cityCodeList": [
+    {
+      "actualCode": "ACCR",
+      "subCode": null,
+      "description": "ACCRA"
+    },
+    {
+      "actualCode": "TEMA",
+      "subCode": null,
+      "description": "TEMA"
+    },
+    {
+      "actualCode": "MADI",
+      "subCode": null,
+      "description": "MADINA"
+    },
+    {
+      "actualCode": "LEGO",
+      "subCode": null,
+      "description": "LEGON"
+    },
+    {
+      "actualCode": "ASHA",
+      "subCode": null,
+      "description": "ASHAIMAN"
+    },
+    {
+      "actualCode": "NUNG",
+      "subCode": null,
+      "description": "NUNGUA"
+    },
+    {
+      "actualCode": "TESH",
+      "subCode": null,
+      "description": "TESHIE"
+    },
+    {
+      "actualCode": "KASO",
+      "subCode": null,
+      "description": "KASOA"
+    },
+    {
+      "actualCode": "KUMA",
+      "subCode": null,
+      "description": "KUMASI"
+    },
+    {
+      "actualCode": "OBUA",
+      "subCode": null,
+      "description": "OBUASI"
+    },
+    {
+      "actualCode": "ASOK",
+      "subCode": null,
+      "description": "ASOKORE"
+    },
+    {
+      "actualCode": "EJIS",
+      "subCode": null,
+      "description": "EJISU"
+    },
+    {
+      "actualCode": "KONO",
+      "subCode": null,
+      "description": "KONONGO"
+    },
+    {
+      "actualCode": "TAKO",
+      "subCode": null,
+      "description": "TAKORADI"
+    },
+    {
+      "actualCode": "SEKO",
+      "subCode": null,
+      "description": "SEKONDI"
+    },
+    {
+      "actualCode": "EFFI",
+      "subCode": null,
+      "description": "EFFIA"
+    },
+    {
+      "actualCode": "PRES",
+      "subCode": null,
+      "description": "PRESTEA"
+    },
+    {
+      "actualCode": "TARK",
+      "subCode": null,
+      "description": "TARKWA"
+    },
+    {
+      "actualCode": "KOFO",
+      "subCode": null,
+      "description": "KOFORIDUA"
+    },
+    {
+      "actualCode": "NKAW",
+      "subCode": null,
+      "description": "NKAWKAW"
+    },
+    {
+      "actualCode": "SOMA",
+      "subCode": null,
+      "description": "SOMANYA"
+    },
+    {
+      "actualCode": "TAMA",
+      "subCode": null,
+      "description": "TAMALE"
+    },
+    {
+      "actualCode": "YEND",
+      "subCode": null,
+      "description": "YENDI"
+    },
+    {
+      "actualCode": "BIMB",
+      "subCode": null,
+      "description": "BIMBILLA"
+    },
+    {
+      "actualCode": "BOLG",
+      "subCode": null,
+      "description": "BOLGATANGA"
+    },
+    {
+      "actualCode": "NAVR",
+      "subCode": null,
+      "description": "NAVRONGO"
+    },
+    {
+      "actualCode": "WA",
+      "subCode": null,
+      "description": "WA"
+    }
+  ]
+}
